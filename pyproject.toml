@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "indiaset"
-version = "0.1.1"
+version = "0.1.2"
 description = "India's open data layer. Clean, versioned datasets across government, agriculture, economy, health, and more — one pip install away."
 readme = "README.md"
 license = {text = "MIT"}
@@ -17,6 +17,7 @@ dependencies = [
     "pandas>=1.5",
     "huggingface_hub>=0.20",
     "pyarrow>=12.0",
+    "rapidfuzz>=3.0",
 ]
 
 [project.urls]
