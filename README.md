@@ -62,5 +62,5 @@ Code: MIT · Data: CC-BY-4.0
 
 ```
 Jaiswal, Ansuman. (2026). indiaset [Software]. 
-https://github.com/indiaset
+https://github.com/indiaset/indiaset
 ```
