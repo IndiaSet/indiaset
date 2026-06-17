@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "indiaset"
+version = "0.1.1"
+description = "India's open data layer. Clean, versioned datasets across government, agriculture, economy, health, and more — one pip install away."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Ansuman Jaiswal"}
+]
+keywords = ["india", "census", "data", "pandas", "dataset", "opendata"]
+dependencies = [
+    "pandas>=1.5",
+    "huggingface_hub>=0.20",
+    "pyarrow>=12.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/indiaset"
+Repository = "https://github.com/indiaset/census-2011-pipeline"
+Dataset = "https://huggingface.co/indiaset"
